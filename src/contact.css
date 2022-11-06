@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600&display=swap');
+
+.con-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0px 96px;
+    gap: 64px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 1440px;
+    max-height: 960px;
+}
+.con-container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 32px;
+gap: 64px;
+position: absolute;
+top: 64px;
+left: 80px;
+width: 80%;
+height: 800px;
+flex: none;
+flex-grow: 1;
+}
+.con-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 720px;
+    height: 616px;
+    gap: 48px;
+    position: absolute;
+    top: 92px;
+    left: 248px;
+    flex-grow: 0;
+}
+.con-HS {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 20px;
+    width: 720px;
+    height: 94px;
+}
+.con-head {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    width: 448px;
+    height: 44px;
+}
+.con-sub {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+    width: 720px;
+    height: 30px;
+}
+.con-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+    align-self: stretch;
+    width: 720px;
+    height: 474px;
+}
+.con-name {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-self: stretch;
+    width: 720px;
+    height: 70px;
+    flex-grow: 0;
+    flex: none;
+    order: 0;
+}
+.con-first {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    width: 348px;
+    height: 70px;
+    flex-grow: 1;
+    flex: none;
+    order: 0;
+}
+.con-last {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    width: 348px;
+    height: 70px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.con-first label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    width: 71px;
+    height: 20px;
+}
+.con-first input {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 348px;
+    height: 44px;
+}
+.con-first input::placeholder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 24px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #667085;
+}
+.con-last label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    width: 71px;
+    height: 20px;
+}
+.con-last input {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 348px;
+    height: 44px;
+}
+.con-last input::placeholder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 24px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #667085;
+}
+.con-email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 720px;
+    height: 70px;
+    flex-grow: 0;
+    flex: none;
+    order: 1;
+}
+.con-email label {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    width: 36px;
+    height: 20px;
+    color: #344054;
+}
+.con-email input {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 10px 14px;
+    gap: 8px;
+    width: 720px;
+    height: 44px;
+}
+.con-email input::placeholder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 692px;
+    height: 24px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #667085;
+}
+.con-message {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 720px;
+    height: 158px;
+    flex-grow: 0;
+    flex: none;
+    order: 2;
+}
+.con-message label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    width: 61px;
+    height: 20px;
+}
+.con-message textarea {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 14px;
+    gap: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #667085;
+}
+.con-checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-grow: 0;
+    flex: none;
+    order: 3;
+    width: 720px;
+    height: 24px;
+}
+.con-checkbox input {
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0px 0px;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.con-checkbox label {
+    width: 688px;
+    height: 24px;
+    gap: 2px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #475467;
+}
+.con-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+button {
+    gap: 8px;
+    width: 720px;
+    height: 48px;
+    color: #ffffff;
+    background: #1570EF;
+    border: 1px solid #1570EF;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 12px 20px;
+}
+#foot {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    top: 950px;
+    left: 180px;
+}
+#foot-div {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    border-top: 1px solid rgb(234, 236, 240);
+    padding: 32px 0px 0px;
+    gap: 32px;
+    width: 90%;
+    min-height: 64px;
+}
+
+#foot-span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgb(102, 112, 133);
+}
+@media (max-width: 500px) {
+    
+    #foot-div {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 70px;
+        left: 150px;
+        width: 90%;
+    }
+    .con-page {
+        padding: 64px 0px;
+        gap: 48px;
+        width: 375px;
+        height: 884px;
+    }
+    .con-container {
+        padding: 0px 16px;
+        width: 375px;
+        height: 116px;
+    }
+    .con-content {
+        gap: 32px;
+        width: 343px;
+        height: 116px;
+    }
+    .con-HS {
+        gap: 16px;
+        width: 343px;
+        height: 116px;
+    }
+    .con-head {
+        width: 343px;
+        height: 44px;
+    }
+    .con-sub {
+        width: 343px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .con-form {
+        gap: 32px;
+        width: 343px;
+        height: 592px;
+    }
+    .con-name {
+        display: flex;
+        flex-direction: column;
+    }
+    .con-first {
+        gap: 6px;
+        width: 343px;
+        height: 70px;
+    }
+    .con-first label {
+        width: 71px;
+        height: 20px;
+    }
+    .con-first input::placeholder {
+        width: 315px;
+        height: 24px;
+    }
+    .con-last {
+        gap: 6px;
+        width: 343px;
+        height: 70px;
+    }
+    .con-last label {
+        width: 70px;
+        height: 20px;
+    }
+    .con-last input::placeholder {
+        width: 315px;
+        height: 24px;
+    } 
+    .con-email {
+        margin-top: 90px;
+        width: 343px;
+        height: 70px;
+    }
+    .con-email input {
+        width: 343px;
+        height: 44px;
+    }
+    .con-email input::placeholder {
+        width: 315px;
+        height: 24px;
+    }
+    .con-message {
+        width: 343px;
+        height: 158px;
+    }
+    .con-message textarea {
+        width: 343px;
+        height: 132px;
+    }
+    .con-checkbox {
+        width: 343px;
+        height: 48px;
+    }
+    .con-checkbox label {
+        width: 311px;
+        height: 48px;
+    }
+    button {
+        width: 343px;
+        height: 48px;
+    }
+}
